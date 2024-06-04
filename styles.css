@@ -40,8 +40,8 @@ body {
 .character-card {
     flex: 1 1 calc(20% - 10px); /* Ajustar tamaño de las tarjetas */
     box-sizing: border-box;
-    margin: 5px;
-    padding: 10px;
+    margin: 10px;
+    padding: 50px;
     background-color: aliceblue;
     border: 1px solid #ccc;
     border-radius: 10px;

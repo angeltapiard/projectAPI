@@ -18,8 +18,8 @@ async function displayCharacters() {
 
     let row;
     characters.forEach((character, index) => {
-        // Crear una nueva fila cada 5 personajes
-        if (index % 5 === 0) {
+        // Crear una nueva fila cada 4 personajes
+        if (index % 4 === 0) {
             row = document.createElement('div');
             row.classList.add('character-row');
             rowsContainer.appendChild(row);
